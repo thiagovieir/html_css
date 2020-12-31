@@ -1,0 +1,189 @@
+.linha-topo {
+    border-top: 4px solid #2A7AE4;
+    width: 100%;
+}
+
+.buttons {
+	margin: 20px auto;
+	text-align: center;
+}
+
+.button {
+	background-color: #999999;
+	color: white;
+	display: inline-block;
+	font-weight: bold;
+	padding: 0.5em 1em;
+	text-decoration: none;
+}
+
+.primary-button {
+	background-color: #389739;
+}
+
+.big-button {
+	font-size: 1.1em;
+}
+
+.small-button {
+	font-size: 0.9em;
+}
+
+@font-face {
+  font-family: 'BrightlyCrushShine';
+  src: url('../fonts/BrightlyCrushShine.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+	text-align: center;
+}
+
+h1.icon_next {
+	font-family: 'BrightlyCrushShine', cursive;
+}
+
+h1.icon_next::after {
+	content: '\2192';
+	font-family: 'BrightlyCrushShine';
+	margin-left: 10px;
+}
+
+h1.icon_next::before {
+content: "\2714";
+font-family: 'BrightlyCrushShine';
+margin-right: 10px;
+}
+
+/** COMENTARIO CSS **/
+
+.tnt {
+	text-align: center;
+	border: 5px solid #000;
+	border-radius: 50%;
+	height: 50px;
+	line-height: 50px;
+	width: 50px;
+	margin: auto;
+}
+
+
+.counter{
+	background-color: #000;
+	color: white;
+	border-top-left-radius: 25px 10px;
+	border-top-right-radius: 25px 10px;
+	display: block;
+	font-size: 1.7em;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	width: 50px;
+	margin: 10px auto;
+}
+
+.highlight{
+	display: inline-block;
+}
+
+.example {
+	color: #FFF;
+	text-align: justify;
+}
+ul.example {
+	padding: 0;
+}
+
+.example::after {
+    content: '';
+    display: inline-block; /* Adicionando essa linha, */
+    width: 100%; /* essa também */
+    height: 0; /* e essa foi a última */
+}
+
+.example-item {
+    width: 25%;
+    height: 150px;
+    display:inline-block;
+    text-align: center;
+    line-height: 150px;
+}
+
+.example-item_first {
+    background-color: #FAA116;
+}
+.example-item_second {
+    background-color: #57C7C3;
+
+}
+.example-item_third {
+    background-color: #3B97D3;
+
+}
+
+.div-cloud {
+	background-color: #000;
+	width: 50px;
+	height: 10px;
+	padding: 20px 50px;
+	margin: 10px auto;
+}
+
+.cloud {
+	background-color: white;
+	border-radius: 48px;
+	display:inline-block;
+	height: 16px;
+	position: relative;
+	width: 48px;
+}
+
+.cloud::before, .cloud::after {
+	background-color: white;
+	border-radius: 50%;
+	content: '';
+	height: 14px;
+	width: 14px;
+	position: absolute;
+	right: 7px;
+	top: -6px;
+}
+
+.cloud::after {
+	height: 23px;
+	width: 23px;
+	left: 7px;
+	top: -10px;
+}
+
+.elementExample {
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+}
+.elementExample_first {
+  background-color: #8E44AD;
+  float: left;
+}
+.elementExample_last {
+  background-color: #C0392B;
+  float: right;  
+}
+
+.wrap-elementExample {
+  background-color: #27ae60;
+  overflow: hidden;
+  /**height: 100px;**/
+  margin:50px 0;
+}
+
+.elementParagraph {
+	background-color: #27ae60;
+  	clear: both;
+  	margin:50px 0px;
+  	padding: 20px 0px;
+}
