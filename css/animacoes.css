@@ -178,7 +178,7 @@ ul.example {
   background-color: #27ae60;
   overflow: hidden;
   /**height: 100px;**/
-  margin:50px 0;
+  margin: 50px 0;
 }
 
 .elementParagraph {
@@ -186,4 +186,29 @@ ul.example {
   	clear: both;
   	margin:50px 0px;
   	padding: 20px 0px;
+}
+
+/*juggernaut.html*/
+
+figure {
+	display: block;
+	position: relative;
+	height: 300px;
+	width: 300px;
+	margin: 5px auto;
+}
+
+.juggernaut {
+	height: 300px;
+	width: 300px;
+}
+
+.caption-juggernaut {
+	bottom: 5px;
+	padding: 5px;
+	width: 290px;
+	position: absolute;
+	text-align: center;
+	background-color: rgba(0,0,0,0.6);
+	color: #FFF;
 }
