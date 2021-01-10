@@ -193,22 +193,120 @@ ul.example {
 figure {
 	display: block;
 	position: relative;
-	height: 300px;
-	width: 300px;
+	height: 200px;
+	width: 200px;
 	margin: 5px auto;
 }
 
 .juggernaut {
-	height: 300px;
-	width: 300px;
+	height: 200px;
+	width: 200px;
 }
 
 .caption-juggernaut {
 	bottom: 5px;
 	padding: 5px;
-	width: 290px;
+	width: 190px;
 	position: absolute;
 	text-align: center;
-	background-color: rgba(0,0,0,0.6);
+	/*background-color: rgba(0,0,0,0.6);*/
 	color: #FFF;
+	background-image: linear-gradient(to right, rgba(255,0,0,0.5), rgba(0,255,0,1));
+}
+
+.lista-juggernaut {
+	height: 35px;
+	width: 244px;
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	background-color: rgb(158, 47, 47);
+	color: #FFF;
+	border: 1px solid rgba(0,0,0,0.3);
+}
+
+.item-lista-juggernaut {
+	display: inline-block;
+	line-height: 35px;
+	font-size: 0.9em;
+	width: 80px;
+	text-align: center;
+	margin: 0 auto;
+	border-left: 1px solid rgba(255,255,255,0.3);
+	border-right: 1px solid rgba(0,0,0,0.3);
+}
+
+li.item-lista-juggernaut:first-child {
+	border-left: none;
+}
+
+li.item-lista-juggernaut:last-child {
+	border-right: none;
+}
+
+.caixa {
+	font-weight: bold;
+	height: 50px;
+	line-height: 25px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	text-align: center;
+	width: 220px;
+}
+
+.blue {
+	margin-top: 20px;
+	background-color: #4377FA;
+	background-image: linear-gradient(to top, #4377FA, #0537B7);
+}
+
+.reverse-blue {
+	background-color: #4377FA;
+	background-image: linear-gradient(to top, #0537B7, #4377FA);
+}
+
+.omg-pink {
+	background-color: #FF79A3;
+	background-image: linear-gradient(to top right, #FC0050, #FF79A3);
+}
+
+.stops {
+	background-color: #F5B951;
+	background-image: linear-gradient(to top, #F5B951 50%, #F2A31C 60%);
+}
+
+.help {
+	margin: 0px auto 20px auto;
+	background-color: #F1EFE6;
+	border: 1px solid #D3CDAE;
+	font-size: 10px;
+	padding: 10px;
+	position:relative;
+	width: 300px;
+	box-shadow: 3px -3px 3px blue;
+}
+
+.help::before {
+	border-color: transparent #D3CDAE transparent transparent;
+	border-style: solid;
+	border-width: 14px;
+	content: "";
+	left: -28px;
+	position: absolute;
+	margin-top: -14px;
+	top: 50%;
+}
+
+input {
+	border: 1px solid #999;
+	box-shadow: 2px 2px 1px rgba(0,0,0, 0.25) inset;
+	padding: 2px 5px;
+}
+
+input:focus {
+	border-color: #35861B;
+	box-shadow: 0 0 10px #35861B, 2px 2px 2px rgba(0,0,0,0.25) inset;
+	outline: none;
 }
